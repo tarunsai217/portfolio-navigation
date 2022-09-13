@@ -1,3 +1,3 @@
-import Skills from './Projects.jsx';
+import Skills from './Skills.jsx';
 
 export default Skills;

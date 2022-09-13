@@ -4,6 +4,7 @@ import About from './Components/About';
 import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 import TopNav from './Components/TopNav';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
       <TopNav />
       <About />
       <Skills />
+      <Projects />
       <Experience />
       <Footer />
     </div>
