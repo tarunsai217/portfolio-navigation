@@ -2,7 +2,13 @@ import * as React from 'react';
 import './TopNav.scss';
 import NavItem from './Components/NavItem';
 export default function TopNav() {
-  const navItems = [{ name: 'HOME', link: 'home' }];
+  const navItems = [
+    { name: 'HOME', link: 'home' },
+    { name: 'SKILLS', link: 'skills' },
+    { name: 'PROJECTS', link: 'projects' },
+    { name: 'EXPERIENCE', link: 'experience' },
+    { name: 'CONTACT', link: 'contact' },
+  ];
   return (
     <div className="top-navigation">
       <div className="logo-wrapper">
