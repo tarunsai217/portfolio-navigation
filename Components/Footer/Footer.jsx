@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Footer.scss';
+import { GitIcon, MailIcon } from './Assets';
 import emailjs from '@emailjs/browser';
 export default function Footer() {
   const [formData, setFormData] = useState({
@@ -23,6 +24,20 @@ export default function Footer() {
   return (
     <section className="feedback">
       <h2 className="feedback-heading">Connect With Me</h2>
+      <div className="cards">
+        <div>
+          <a className="card-item" href="mailto:tarunsai217@gmail.com">
+            <MailIcon fill="#aa9aba" />
+            <span>tarunsai217@gmail.com</span>
+          </a>
+        </div>
+        <div>
+          <a className="card-item">
+            <GitIcon fill="#aa9aba" />
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
       <div className="form-container">
         <input
           value={formData.name}
@@ -45,7 +60,7 @@ export default function Footer() {
           className="message-input"
           placeholder="Your Message"
         />
-        <button onClick={sendFeedback}>Send Feedback</button>
+        <button onClick={sendFeedback}>Send Message</button>
       </div>
     </section>
   );
