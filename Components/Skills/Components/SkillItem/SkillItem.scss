@@ -1,0 +1,25 @@
+.skill-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  img {
+    fill: black;
+  }
+
+  .skill-name {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #aa9aba;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

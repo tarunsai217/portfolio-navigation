@@ -6,7 +6,7 @@ export default function SkillItem({ item }) {
   return (
     <div className="skill-item">
       <img src={img} />
-      <span>{name}</span>
+      <span className="skill-name">{name}</span>
     </div>
   );
 }
