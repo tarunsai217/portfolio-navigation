@@ -44,7 +44,7 @@
           }
 
           &:hover {
-            transform: scale(0.9);
+            transform: scale(0.9) translateZ(0px);
           }
         }
 
@@ -97,7 +97,7 @@
             }
 
             &:hover {
-              transform: scale(0.9);
+              transform: scale(0.9) translateZ(0px);
             }
           }
 
@@ -117,7 +117,7 @@
         background-color: #6baa75;
         padding: 5px 8px;
         margin: 0 0.5rem;
-        border-radius: 5px;
+        border-radius: 10px;
         font-size: 0.95rem;
         color: white;
       }
