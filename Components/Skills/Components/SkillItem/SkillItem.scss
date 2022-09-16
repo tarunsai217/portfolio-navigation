@@ -2,15 +2,20 @@
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: black;
   padding: 1rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   margin: 24px;
+  height: 180px;
+  width: 150px;
 
   img {
     fill: black;
+    height: 130px;
+    width: 130px;
   }
 
   .skill-name {

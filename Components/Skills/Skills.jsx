@@ -10,6 +10,11 @@ import {
   redux,
   tailwind,
   bootstrap,
+  nodejs,
+  socketio,
+  firebase,
+  typescript,
+  express,
 } from './Assets';
 
 export default function Skills() {
@@ -18,14 +23,15 @@ export default function Skills() {
     { name: 'CSS 3', img: css3 },
     { name: 'JS', img: js },
     { name: 'sass', img: sass },
-    { name: 'react', img: react },
-    { name: 'redux', img: redux },
     { name: 'tailwind', img: tailwind },
     { name: 'bootstrap', img: bootstrap },
-    { name: 'node js', img: sass },
-    { name: 'express', img: sass },
-    { name: 'firebase', img: sass },
-    { name: 'socket io', img: sass },
+    { name: 'react', img: react },
+    { name: 'redux', img: redux },
+    { name: 'typescript', img: typescript },
+    { name: 'node js', img: nodejs },
+    { name: 'express', img: express },
+    { name: 'firebase', img: firebase },
+    { name: 'socket io', img: socketio },
   ];
   return (
     <div className="skills-container">
