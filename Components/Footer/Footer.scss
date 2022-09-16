@@ -90,3 +90,15 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .cards {
+    flex-direction: column;
+
+    .card-item {
+      margin-bottom: 2rem;
+      margin-right: 0 !important;
+      width: 180px !important;
+    }
+  }
+}

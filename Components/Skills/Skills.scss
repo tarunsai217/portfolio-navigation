@@ -19,3 +19,9 @@
     align-self: center;
   }
 }
+
+@media (max-width: 900px) {
+  .skills-container {
+    padding: 50px 2rem;
+  }
+}
