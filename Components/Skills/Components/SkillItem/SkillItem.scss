@@ -30,3 +30,15 @@
     transform: scale(1.1);
   }
 }
+
+@media (max-width: 900px) {
+  .skill-item {
+    height: 120px;
+    width: 120px;
+    margin: 12px;
+    img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
