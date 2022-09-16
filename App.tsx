@@ -9,7 +9,7 @@ import TopNav from './Components/TopNav';
 
 export default function App() {
   return (
-    <div>
+    <div className="app">
       <TopNav />
       <About />
       <Skills />
